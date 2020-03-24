@@ -7,14 +7,14 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       home: Scaffold(
         appBar:AppBar( title: Text('This is a Screen')),
-        body: Column(children: <Widget>[
-          Text('Question'),
-          RaisedButton(child: Text('Answer1')),
-          RaisedButton(child: Text('Answer2')),
-          RaisedButton(child: Text('Answer3'),onPressed: null,
+        body: 
+          Column(children: <Widget>[
+            Text('Question'),
+            RaisedButton(child: Text('Answer1')),
+            RaisedButton(child: Text('Answer2')),
+            RaisedButton(child: Text('Answer3'),onPressed: null,),
+            ],
           ),
-          ],
-        ),
         ),
       theme: ThemeData(
 
