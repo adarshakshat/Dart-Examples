@@ -30,7 +30,6 @@ class MyAppState extends State<MyApp>{
       questionindex=0;
     }
   }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
